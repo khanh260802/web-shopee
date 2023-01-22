@@ -1,5 +1,5 @@
 :root {
-    --whilte-color: #fff; 
+    --white-color: #fff; 
     --black-color: #000; 
     --text-color: #333;
 }
@@ -17,7 +17,7 @@ html {
 }
 
 p {
-    font-size: 1rem; 
+    font-size: 1.3rem; 
 }
 
 .grid {
@@ -34,4 +34,7 @@ p {
     display: flex;
     flex-wrap: wrap; 
 }
+
+
+
 

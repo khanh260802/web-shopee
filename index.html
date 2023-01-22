@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="./asset/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/main.css">
 </head>
@@ -19,25 +19,52 @@
     <div class="app">
         <!-- header -->
         <div class="header">
-            <div class="navbar">
-                <ul class="navbar__list">
-                    <li class="navbar-item">Vào cửa hàng trên ứng dụng shopee</li>
-                    <li class="navbar-item">Kết nối</li>
-                </ul>
+            <div class="grid">
+                <div class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar-item navbar-item--saparate">
+                            <div> Vào cửa hàng trên ứng dụng shopee </div>
+                            <div class="navbar-QrCodeAndApp">
+                                <div class="navbar-QrCode">
+                                    <img src="./asset/img/qrCode.png" alt="" class="navbar-QrCode__img">
+                                </div>
+                                <div class="navbar-App">
+                                    <a href="" class="navbar-App__linkApp">
+                                        <img src="./asset/img/googlePlay.png" alt="appStore" class = "navbar-App_img">
+                                    </a>
+                                    <a href="" class="navbar-App__linkApp">
+                                        <img src="./asset/img/appStore.png" alt="appStore" class = "navbar-App_img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar-item reset_hover">
+                            Kết nối
+                            <a href="" class="ti-facebook navbar-item__icon navbar-item__link"></a>
+                            <a href="" class="ti-instagram navbar-item__icon navbar-item__link"></a>
+                        </li>
+                    </ul>
 
-                <ul class="navbar__list">
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link"> Thông báo </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="" class="navbar-item__link"> Trợ giúp </a>
-                    </li>
-                    
-                    <li class="navbar-item">Đăng ký </li>
-                    <li class="navbar-item">Đăng nhập</li>
-                </ul>
+                    <ul class="navbar__list">
+                        <li class="navbar-item ">
+                            <a href="" class="navbar-item__link"> 
+                                <span href="" class="ti-bell navbar-item__icon"></span>
+                                Thông báo 
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a href="" class="navbar-item__link"> 
+                                <a href="" class="ti-help-alt navbar-item__icon navbar-item__link"></a>
+                                Trợ giúp 
+                            </a>
+                        </li>
+
+                        <li class="navbar-item navbar-item--strong navbar-item--saparate">Đăng ký </li>
+                        <li class="navbar-item navbar-item--strong">Đăng nhập</li>
+                    </ul>
+                </div>
             </div>
-            
+
             <div class="search">
 
             </div>
